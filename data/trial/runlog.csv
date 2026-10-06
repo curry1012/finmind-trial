@@ -1,0 +1,2 @@
+run_date,platform,trigger,actual_start,finish,duration_s,attempts,final_status,ready_at_attempt,us_ready,tw_ready,inst_ready,margin_ready,total_calls,total_errors,auth_mode
+2026-10-06,github_actions,workflow_dispatch,2026-10-06T16:50:06+08:00,2026-10-06T16:50:10+08:00,4,1,not_ready_by_deadline,,True,False,False,True,9,0,header
