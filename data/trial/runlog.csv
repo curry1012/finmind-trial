@@ -3,3 +3,4 @@ run_date,platform,trigger,actual_start,finish,duration_s,attempts,final_status,r
 2026-10-07,github_actions,schedule,2026-10-07T06:44:44+08:00,2026-10-07T06:44:48+08:00,3,1,not_ready_by_deadline,,False,True,True,True,9,0,header
 2026-10-08,github_actions,schedule,2026-10-08T06:45:46+08:00,2026-10-08T06:45:50+08:00,3,1,ready,1,True,True,True,True,9,0,header
 2026-10-09,github_actions,schedule,2026-10-09T06:47:24+08:00,2026-10-09T06:47:28+08:00,3,1,ready,1,True,True,True,True,9,0,header
+2026-10-10,github_actions,schedule,2026-10-10T06:46:53+08:00,2026-10-10T06:46:57+08:00,3,1,not_ready_by_deadline,,False,True,True,True,9,0,header
