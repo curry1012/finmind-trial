@@ -1,0 +1,164 @@
+{
+ "platform": "github_actions",
+ "trigger": "schedule",
+ "run_date": "2026-10-13",
+ "scheduled_nominal": "06:30",
+ "actual_start": "2026-10-13T11:07:50+08:00",
+ "finish": "2026-10-13T11:07:53+08:00",
+ "expected_us_date": "2026-10-12",
+ "expected_tw_date": "2026-10-12",
+ "final_status": "ready",
+ "ready_at_attempt": 1,
+ "attempts": [
+  {
+   "n": 1,
+   "started_at": "2026-10-13T11:07:50+08:00",
+   "finished_at": "2026-10-13T11:07:53+08:00",
+   "flags": {
+    "us_ready": true,
+    "tw_ready": true,
+    "inst_ready": true,
+    "margin_ready": true,
+    "all_ready": true
+   },
+   "calls": 9,
+   "errors": 0,
+   "error_list": [],
+   "auth_mode": "header",
+   "records": [
+    {
+     "key": "^IXIC",
+     "data_date": "2026-10-12",
+     "payload": {
+      "close": 27245.9,
+      "prev_date": "2026-10-09",
+      "prev_close": 27366.17,
+      "change": -120.27,
+      "pct": -0.44
+     }
+    },
+    {
+     "key": "^SOX",
+     "data_date": "2026-10-12",
+     "payload": {
+      "close": 12236.79,
+      "prev_date": "2026-10-09",
+      "prev_close": 12572.42,
+      "change": -335.63,
+      "pct": -2.67
+     }
+    },
+    {
+     "key": "NVDA",
+     "data_date": "2026-10-12",
+     "payload": {
+      "close": 226.32,
+      "prev_date": "2026-10-09",
+      "prev_close": 229.28,
+      "change": -2.96,
+      "pct": -1.29
+     }
+    },
+    {
+     "key": "TSM",
+     "data_date": "2026-10-12",
+     "payload": {
+      "close": 444.35,
+      "prev_date": "2026-10-09",
+      "prev_close": 453.31,
+      "change": -8.96,
+      "pct": -1.98
+     }
+    },
+    {
+     "key": "TAIEX",
+     "data_date": "2026-10-12",
+     "payload": {
+      "close": 49301.96,
+      "spread": -11.48,
+      "pct": -0.02,
+      "trading_money_100m": 8945.22
+     }
+    },
+    {
+     "key": "INST",
+     "data_date": "2026-10-12",
+     "payload": {
+      "Foreign_Investor": {
+       "buy": 312724764934,
+       "sell": 364922911390,
+       "net_100m": -521.98
+      },
+      "Dealer_self": {
+       "buy": 7427842603,
+       "sell": 8227215631,
+       "net_100m": -7.99
+      },
+      "Foreign_Dealer_Self": {
+       "buy": 0,
+       "sell": 0,
+       "net_100m": 0.0
+      },
+      "Dealer_Hedging": {
+       "buy": 30566874658,
+       "sell": 44061605271,
+       "net_100m": -134.95
+      },
+      "Investment_Trust": {
+       "buy": 26036212786,
+       "sell": 18895287719,
+       "net_100m": 71.41
+      },
+      "total": {
+       "buy": 376755694981,
+       "sell": 436107020011,
+       "net_100m": -593.51
+      }
+     }
+    },
+    {
+     "key": "MARGIN",
+     "data_date": "2026-10-12",
+     "payload": {
+      "rows": [
+       {
+        "TodayBalance": 9453100,
+        "YesBalance": 9403368,
+        "buy": 372347,
+        "date": "2026-10-12",
+        "name": "MarginPurchase",
+        "Return": 8099,
+        "sell": 314516
+       },
+       {
+        "TodayBalance": 216189,
+        "YesBalance": 211946,
+        "buy": 17138,
+        "date": "2026-10-12",
+        "name": "ShortSale",
+        "Return": 619,
+        "sell": 22000
+       },
+       {
+        "TodayBalance": 653329500000,
+        "YesBalance": 646405767000,
+        "buy": 33916493000,
+        "date": "2026-10-12",
+        "name": "MarginPurchaseMoney",
+        "Return": 567086000,
+        "sell": 26425674000
+       }
+      ]
+     }
+    },
+    {
+     "key": "US10Y",
+     "data_date": "2026-10-09",
+     "payload": {
+      "value": 5.24
+     }
+    }
+   ]
+  }
+ ]
+}
