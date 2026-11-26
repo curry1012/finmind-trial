@@ -50,3 +50,4 @@ run_date,platform,trigger,actual_start,finish,duration_s,attempts,final_status,r
 2026-11-23,github_actions,schedule,2026-11-23T11:00:28+08:00,2026-11-23T11:00:32+08:00,4,1,ready,1,True,True,True,True,9,0,header
 2026-11-24,github_actions,schedule,2026-11-24T14:18:19+08:00,2026-11-24T14:18:23+08:00,3,1,ready,1,True,True,True,True,9,0,header
 2026-11-25,github_actions,schedule,2026-11-25T12:59:29+08:00,2026-11-25T12:59:33+08:00,4,1,ready,1,True,True,True,True,9,0,header
+2026-11-26,github_actions,schedule,2026-11-26T12:17:57+08:00,2026-11-26T12:18:00+08:00,3,1,ready,1,True,True,True,True,9,0,header
